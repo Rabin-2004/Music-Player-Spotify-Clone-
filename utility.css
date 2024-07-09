@@ -1,0 +1,96 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bg-black{
+background-color: black;
+color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m1{
+    margin: 5px;
+}
+
+.p1{
+    padding: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    background-color: #333; /* color of the track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #666; /* color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* color of the scrollbar handle on hover */
+  }
+  
+  /* Corner */
+  ::-webkit-scrollbar-corner {
+    background-color: #333; /* color of the scrollbar corner (where vertical and horizontal scrollbars meet) */
+  }
+  
+  /* Track when scrollbar is in start/end position */
+  ::-webkit-scrollbar-track:start {
+    background-color: #333; /* color of the scrollbar track at the top/left */
+  }
+  
+  ::-webkit-scrollbar-track:end {
+    background-color: #333; /* color of the scrollbar track at the bottom/right */
+  }
+  ::-moz-scrollbar {
+    background-color: #333;
+  }
+  
+  /* For the scrollbar handle */
+  ::-moz-scrollbar-thumb {
+    background-color: #666;
+  }
+  
+  /* For the scrollbar handle on hover */
+  ::-moz-scrollbar-thumb:hover {
+    background-color: #888;
+  }
+  
+  /* For the scrollbar corner */
+  ::-moz-scrollbar-corner {
+    background-color: #333;
+  }
+  
+  /* Track when scrollbar is in start/end position */
+  ::-moz-scrollbar-track:start {
+    background-color: #333;
+  }
+  
+  ::-moz-scrollbar-track:end {
+    background-color: #333;
+  }
+  
+  
